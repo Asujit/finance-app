@@ -9,3 +9,9 @@ export const TopContainer = styled.View`
 export const StyledHeader = styled(ScreenHeader)`
   padding: 0;
 `;
+
+export const SupportVersion = styled.Text`
+  margin-top: 16px;
+  text-align: center;
+  font-size: 12px;
+`;

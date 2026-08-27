@@ -14,7 +14,7 @@ import BalanceSection from './components/BalanceSection';
 import CategorySection from './components/CategorySection';
 import SummarySection from './components/SummarySection/indes';
 import TransactionsSection from './components/TransactionsSection';
-import { StyledHeader, TopContainer } from './styles';
+import { StyledHeader, TopContainer, SupportVersion } from './styles';
 
 const MINIMUM_DATE = moment(new Date(0));
 
@@ -95,6 +95,7 @@ const Home: React.FC = () => {
           <CategorySection />
           <Divider />
           <TransactionsSection />
+        <SupportVersion>Support Version: 3.1.0</SupportVersion>
         </ScreenContent>
       </ScreenContainer>
       <MonthYearPicker
