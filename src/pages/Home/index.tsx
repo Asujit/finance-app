@@ -95,7 +95,7 @@ const Home: React.FC = () => {
           <CategorySection />
           <Divider />
           <TransactionsSection />
-        <SupportVersion>Support Version: 3.1.0</SupportVersion>
+        <SupportVersion>Support Version: 3.1.1</SupportVersion>
         </ScreenContent>
       </ScreenContainer>
       <MonthYearPicker
